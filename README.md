@@ -13,7 +13,8 @@ pip3 install openai
 Once you have the OpenAI library installed, you can run the script by passing a query as a command line argument:
 
 ```bash
-python translate.py "I wonder how this phrase would sound in Polish"
+python translate.py "I wonder how this phrase would sound in Polish"  
+# remember to use python3
 ```
 
 This will use the `gpt-3.5-turbo` model to translate the given query to Polish language and print the response.
